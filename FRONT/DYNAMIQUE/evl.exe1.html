@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script>alert("denombrer les personnes d'age") </script>
+</head>
+<body>
+    <script>
+    var j=0;
+    var m=0;
+    var v=0;
+    var personnes;
+do {
+  personnes = window.prompt("Entrez votre age");
+  if ( personnes <20) {
+    j++;
+    console.log(j);
+  }
+   if((personnes>20 )&&(personnes<40)) {
+      m++;
+    console.log(m);  
+  } 
+   if ((personnes >=40 ) && (personnes <=100)) {
+    v++;
+    console.log(v);
+  }
+}
+while (personnes < 100);
+ 
+window.alert("Il y a " + "" + j + "" + " jeunes\n " + "Il y a " + "" + m + "" + "moyens\n " + " Il y a " + " Il y a " + "" + v + "" +" vieux\n " + " dont "+ " 1 " + "" + " centenaire ");
+    </script>
+   
+</body>
+</html>
